@@ -633,6 +633,30 @@ body[data-lang="zh"] [data-lang-en] {
   font-weight: 700;
 }
 
+.friend-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 18px;
+}
+
+.friend-links-label {
+  margin: 0;
+  color: var(--muted) !important;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.friend-links a {
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
 .contact-note {
   color: var(--muted) !important;
   font-size: 0.96rem;
